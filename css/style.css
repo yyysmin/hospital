@@ -1,0 +1,353 @@
+@charset "utf-8";
+
+#wrap{}
+
+#header{
+    width: 100%;
+}
+
+.head_inner{
+    width: 100%;
+    height: 175px;
+}
+
+.head_top{
+    width: 100%;
+    height: 100px;
+    background-color: #004528;
+}
+
+.top_inner{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    width: 80px;
+    margin-top: 10px;
+}
+
+.top_menu{
+    float: right;
+    margin-top: 29px;
+}
+
+.top_menu li {
+    float: left;
+    margin-left: 25px;
+}
+
+.top_menu li .login{
+    color: white;
+    font-weight: bold;
+    float: right;
+    line-height: 46px;
+    /* line-height: 0px; */
+}
+
+.head_bottom{
+    width: 100%;
+    height: 75px;
+    border-bottom: 1px solid lightgray;
+}
+
+.bottom_inner{
+    width: 940px;
+    height: 75px;
+    margin: 0 auto;
+    border-bottom: 1px solid lightgray;
+}
+
+.bottom_menu{
+}
+
+.bottom_menu li{
+    height: 75px;
+    line-height: 75px;
+    width: 188px;
+    float: left;
+    text-align: center;
+}
+
+.bottom_menu li:hover{
+    color: #51B95C;
+    font-weight: bold;
+}
+
+
+/*컨텐츠 영역*/
+
+.contents{
+    width: 100%;
+    
+}
+.banner{
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.cont_inner{
+    width: 940px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.cont1{
+    overflow: hidden;
+    margin-top: 70px;
+    /* border: 1px solid red; */
+}
+
+.cont1_boxleft{
+    float: left;
+    position: relative;
+}
+
+input[type=text]{
+    width: 120px;
+    height: 45px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+}
+
+input[type=tel]{
+    width: 220px;
+    height: 45px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    left: 190px;
+    top: 150px;
+}
+
+.cont1_boxleft > a{
+    width: 150px;
+    height: 40px;
+    background-color: #004528;
+    color:white;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    left: 150px;
+    bottom:12px;
+    font-size: 12px;
+}
+
+.cont1_boxright{
+    float: right;
+    position: relative;
+    
+}
+
+.cont1_boxright ul{
+}
+
+.cont1_boxright ul li{
+    float: left;
+    width: 150px;
+    height: 80px;
+    background-color: #fff;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 14px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.cont1_boxright ul li:first-child{
+    left: 50px;
+    top: 130px;
+}
+
+.cont1_boxright ul li:last-child{
+    left: 230px;
+    top: 130px;
+}
+
+.cont1_boxright ul span{
+    background-color: #004528;
+    color: white;
+    text-align: right;
+    width: 50px;
+    height: 20px;
+    display: block;
+    font-size: 14px;
+    border-radius: 20px;
+    padding-right: 5px;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+
+.cont2{
+}
+
+.cont2_box{
+}
+.cont2 h1{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 30px;
+}
+
+.medical{
+    margin-top: 50px;
+    overflow: hidden;
+    
+}
+
+.medical li{
+    float: left;
+    text-align: center;
+    margin-left: 63px;
+    font-weight: bold;
+}
+.medical li a{
+    display: block;
+    transition: all 0.5s;
+}
+.medical li:first-child{
+    margin-left: 0 !important;
+}
+.medical li img{
+    width: 100px;
+}
+
+.medical li:hover a{
+    background-color: #acc99f;
+}
+.cont3{
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.cont3 h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.map{
+    width: 350px;
+    height: 250px;
+}
+
+.cont3_right{
+    float: right;
+    background-color: #1B3757;
+    width: 570px;
+    height: 250px;
+    padding: 20px;
+}
+
+.cont3_right p{
+    color: white;
+    font-size: 20px;
+}
+
+.cont3_right>hr{
+    margin-top: 10px;
+    height: 1px;
+}
+
+.cont3_right .notice{
+    margin: 0 auto;
+}
+.cont3_right .notice li{
+    float: left;
+    width: 100px;
+    height: 140px;
+    background-color: #fff;
+    margin: 20px 0 0 25px;
+    font-size: 14px;
+    padding: 5px;
+    transition: all 0.3s;
+}
+
+.cont3_right .notice li hr{
+    height: 1px;
+    margin: 10px 3px;
+}
+
+
+.cont3_right .notice li:hover{
+    background-color: #388059;
+    color: white;
+    box-shadow: 1px 1px 4px white ;
+}
+
+.cont4{
+    width: 940px;
+    margin-top: 70px;
+}
+
+.cont4 h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    background-image:url("../img/의료진01.jpg") no-repeat;
+}
+
+.doctor{
+    width: 100%;
+    box-shadow: 2px 2px 4px rgb(104, 104, 104);
+}
+
+.doctor a{}
+
+#footer{
+    width: 100%;
+    height: 220px;
+    background-color: #004528;
+    margin-top: 90px;
+}
+
+.foot_inner{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.foot_left{
+    float: left;
+}
+
+.foot_left a img{
+    width: 150px;
+    margin-top: 35px;
+}
+
+.foot_right{
+    float: left;
+}
+
+.foot_right p{
+    color: white;
+    font-size: 12px;
+    line-height: 25px;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.foot_right span{
+    color: white;
+    font-size: 12px;
+    line-height: 60px;
+    margin-left: 50px;
+}
